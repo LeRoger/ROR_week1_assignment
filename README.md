@@ -6,7 +6,7 @@ Submitted by: **Roger Le**
 
 Time spent: **20** hours spent in total
 
-URL: **heroku-app-url**
+URL: **https://ror-homework1.herokuapp.com/**
 
 ## User Stories
 
