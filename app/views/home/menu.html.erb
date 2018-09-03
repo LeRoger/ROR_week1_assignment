@@ -1,0 +1,28 @@
+
+<div class='container'>
+    <% @sections.each do |section| %>
+        <ul class="list-group">
+            <li class="list-group-item"><%= link_to section.name, home_menu_path(section_id: section.id) %></li>
+        </ul>
+    <% end %>
+</div>
+
+
+<div class='container'>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <%# @current_section.food_items.each do |item| %>
+        <img class="card-img-left" src="<%#= item.image_url %>" alt="">
+        <div class="card-body">
+            <p class="card-text">
+                Name: <%#= item.name %> <br>
+                Description: <%#= item.description %> <br>
+                Price: <%#= item.price %> <br>
+            </p>
+        </div>
+        <%# end %>
+    </div>
+   
+</div>
+
+
